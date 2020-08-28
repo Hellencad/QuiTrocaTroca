@@ -28,13 +28,13 @@ body {
 }
 
 a {
-    color: rgb(185, 47, 219);
+    color: rgb(47, 219, 104);
     text-decoration: none;
 }
 
 #container {
     background: #cdcdcd;
-    border: 3px solid #fa7c92;
+    border: 3px solid #f79840;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -67,8 +67,8 @@ a {
 }
 
 .front.flipped {
-    box-shadow: 0px 0px 15px #dd1f5e; 
-    border: 5px solid #dd1f5e;  
+    box-shadow: 0px 0px 15px #dd651f; 
+    border: 5px solid #dd651f;  
     
 }
 
@@ -77,58 +77,3 @@ a {
     padding: 5px;
     text-align: center;
 }
-
-/*.modal-container {
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.4);
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 2000;
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.modal-container.mostrar {
-    display: flex;
-}
-
-.modal {
-    background: rgb(217, 252, 252);
-    width: 60%;
-    min-width: 300px;
-    padding: 20px;
-    border: 5px solid #dd1f5e;
-    position: relative;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);    
-}
-
-@keyframes modal {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -60px, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-.mostrar .modal {
-    animation: modal 0.3s;
-}
-
-.fechar {
-    position: absolute;
-    font-size: 1.2em;
-    top: -15px;
-    right: -15px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
-    background: #ffffff;
-    cursor: pointer;
-} */
