@@ -20,11 +20,12 @@ body {
     }
 
 .site-subtittle {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Chelsea Market', cursive; /*'Indie Flower', cursive;*/
     padding: 5px;
     text-align: left;
     margin-top: 10px;
-    margin-left: 100px;  
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 a {
@@ -73,7 +74,18 @@ a {
 }
 
 .rodape {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Indie Flower', cursive;
     padding: 5px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.formulario {
     text-align: center;
+}
+
+.fase2 {
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    
 }

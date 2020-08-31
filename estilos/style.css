@@ -20,16 +20,12 @@ body {
     }
 
 .site-subtittle {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Chelsea Market', cursive;
     padding: 5px;
     text-align: left;
     margin-top: 10px;
-    margin-left: 100px;  
-}
-
-a {
-    color: rgb(185, 47, 219);
-    text-decoration: none;
+    margin-left: 100px; 
+    margin-right: 100px; 
 }
 
 #container {
@@ -73,9 +69,57 @@ a {
 }
 
 .rodape {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Indie Flower', cursive;
     padding: 5px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.formulario {
     text-align: center;
+}
+
+.fase2 {
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    margin: 10px;
+}
+
+.button {
+    width: 120px;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #111111;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);    
+    border-radius: 10px;    
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+}
+
+button:hover {
+    background-color: burlywood; 
+}
+
+.textbutton {
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;    
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+a {
+    color: rgb(185, 47, 219);
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: burlywood;
+    color: darkcyan;
 }
 
 /*.modal-container {
